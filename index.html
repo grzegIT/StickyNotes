@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="mainCSS.css" />
+
+    <!-- czcionki -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+    <script src="mainJS.js"></script>
+</head>
+
+<body>
+    <header class="note-header">
+        <!-- dodawanie notatek -->
+        <div id="addNote" class="add-content">
+            <h1>StickyNote</h1>
+            <!-- <p>Dodaj notatkę:</p> -->
+            <label for="title" id="title"></label>
+            <input type="text" name="title" id="newTitle" maxlength="50" placeholder="tytuł">
+
+            <label for="conetnt" id=""></label>
+            <input type="text" name="note" id="newNote" maxlength="90" placeholder="treść">
+
+            <div>
+                <input type="checkbox" id="pin" class="pin-checked"><label>
+                </label>Przypnij na górę</label>
+            </div>
+
+            <button id="add">dodaj</button>
+        </div>
+    </header>
+    <section class="wrapper">
+        <!-- wyświetlanie notatek -->
+        <div id="importantListOfNotes">
+            <!-- <p>Ważne notatki</p> -->
+            <ul id="importantNotebook">
+
+            </ul>
+        </div>
+        <div id="listOfNotes">
+            <!-- <p>Twoje notatki</p> -->
+            <ul id="notebook">
+
+            </ul>
+        </div>
+
+        <!-- <button id="przywroc">aaaa</button> -->
+    </section>
+    <footer class="note-footer">
+        <h1>StickyNote</h1>
+        <p>Grzegorz Golonka, nr albumu: 10961.<br> WSEI Informatyka i Ekonometria (rok II).</p>
+    </footer>
+
+</body>
+
+</html>
