@@ -149,6 +149,7 @@ button:hover {
 
 .wrapper #importantListOfNotes #importantNotebook ul {
     border-color: #2196F3;
+    border-bottom-right-radius: 0;
 }
 
 .wrapper #importantListOfNotes #importantNotebook ul::after {
