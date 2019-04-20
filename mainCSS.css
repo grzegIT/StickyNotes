@@ -65,6 +65,12 @@ body {
     align-items: center;
 
 }
+.add-content .buttons {
+    margin: 0 auto;
+    width: 50%;
+    justify-content: space-around
+}
+
 
 input[type=text] {
     background-color: transparent;
@@ -84,6 +90,8 @@ input[type='checkbox'] {
 input[type='checkbox']:checked {}
 
 button {
+    margin: 0 10px;
+    padding: 0 20px;
     width: 150px;
     height: 30px;
     background-color: #2196F3;
@@ -130,7 +138,7 @@ button:hover {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
     position: relative;
-    overflow-x: hidden;
+    overflow-x: auto;
 }
 
 .wrapper #importantListOfNotes #importantNotebook ul li:first-child,
@@ -144,12 +152,11 @@ button:hover {
     font-weight: normal;
     text-transform: lowercase;
     font-size: x-small;
-    color: #8d8d89
+    color: #8d8d89;
 }
 
 .wrapper #importantListOfNotes #importantNotebook ul {
     border-color: #2196F3;
-    border-bottom-right-radius: 0;
 }
 
 .wrapper #importantListOfNotes #importantNotebook ul::after {
